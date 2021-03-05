@@ -3,9 +3,10 @@ module.exports = {
     host: 'localhost',
     username: 'postgres',
     password: 'postgres',
+    database: 'apinode',
     define: {
         timestamps: 'true',
-        underscored: 'true'
-    }
+        underscored: 'true',
+    },
 
 }
