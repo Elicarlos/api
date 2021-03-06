@@ -12,6 +12,7 @@ routes.get('/users', UserController.index)
 routes.post('/users', UserController.store)
 
 //Encandeamento de rotas 
+routes.get('/users/:user_id/address', AddressController.index)
 routes.post('/users/:user_id/address', AddressController.store)
 
 
